@@ -36,6 +36,8 @@ git fetch
 git checkout npm-module
 git rebase master
 npm run build
+git add awesome.json
+git commit -m "update awesome.json"
 npm version minor -m "awesome new stuff"
 npm publish
 ```
